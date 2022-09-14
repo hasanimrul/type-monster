@@ -9,23 +9,36 @@
     <title>Blog</title>
 </head>
 
-<body>
-    <h1 class="text-center">Below are the 4 questions and answers!</h1>
+<body class="bg-black">
+    <h1 class="text-center text-primary">Below are the 4 questions and answers!</h1>
     <section class="m-5">
-        <h3 class="text-primary">Q1:- Differences between local storage and session storage.</h3>
-        <h4 class="fw-bold">Answer:-</h4>
-        <h4 class="ms-5">
-            <span class="fw-bold">Local Storage:</span> It is a storage or memory for store website data. User can manually store and remove the data
+        <h3 class="text-light">Q1:- Differences between local storage and session storage.</h3>
+        <h4 class="fw-bold text-light ">Answer:-</h4>
+        <h5 class="ms-5 text-secondary">
+            <span class="fw-bold text-light">Local Storage:</span> It is a storage or memory for store website data. User can manually store and remove the data
             from the storage. It is also accessible after closing the browser. <br>
-            <span class="fw-bold">Session Storage:</span> It is same as local storage but the only difference is session storage data got cleared
+            <span class="fw-bold text-light">Session Storage:</span> It is same as local storage but the only difference is session storage data got cleared
             when the tab or browser closed.
-        </h4>
-        <h3>Q2:- Differences between global scope and block scope.</h3>
-        <h4 class="fw-bold">Answer:-</h4>
-        <h4 class="ms-5">
-            <span class="fw-bold">Global scope:</span> Global scope contains all of the things defined outside of all code blocks. A code block simply consists of grouped statements inside curly braces ({ }). if statement, loops, function are examples of structure that create a code block. A global variable has global scope. A global variable is accessible from anywhere in the code. <br>
-            <span class="fw-bold">Local Scope:</span> Local scope contains things defined inside code blocks. A local variable has local scope. A local variable is only accessible where it’s declared.
-        </h4>
+        </h5>
+        <h3 class="text-light">Q2:- Differences between global scope and block scope.</h3>
+        <h4 class="fw-bold text-light ">Answer:-</h4>
+        <h5 class="ms-5 text-secondary">
+            <span class="fw-bold text-light">Global scope:</span> Global scope contains all of the things defined outside of all code blocks. A code block simply consists of grouped statements inside curly braces ({ }). if statement, loops, function are examples of structure that create a code block. A global variable has global scope. A global variable is accessible from anywhere in the code. <br>
+            <span class="fw-bold text-light">Local Scope:</span> Local scope contains things defined inside code blocks. A local variable has local scope. A local variable is only accessible where it’s declared.
+        </h5>
+        <h3 class="text-light">Q3:- How does javascript event loop works?</h3>
+        <h4 class="fw-bold text-light ">Answer:-</h4>
+        <h5 class="ms-5 text-secondary">
+            <span class="fw-bold text-light">Event Loop:</span> The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.
+        </h5>
+        <h3 class="text-light">Q4:- What are the reason of getting undefined in javascript?</h3>
+        <h4 class="fw-bold text-light ">Answer:-</h4>
+        <h5 class="ms-5 text-secondary">
+            <span class="fw-bold text-light">Some reasons why we get undefined in JS:</span> <br>
+            =>When a variable is declared or initialized but no value is assigned to it, JavaScript automatically displays undefined. <br>
+            => When we try accessing values in an array that doesn’t exist, it will throw undefined. <br>
+            => When we try accessing values in an object that doesn’t exist, it will throw undefined.
+        </h5>
     </section>
 
 
