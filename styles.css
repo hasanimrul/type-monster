@@ -199,6 +199,6 @@ button {
   }
   .card{
     display: grid;
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
   }
 }
