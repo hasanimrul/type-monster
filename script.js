@@ -98,6 +98,7 @@ const gameOver = () => {
 const closeModal = () => {
   modalBackground.classList.toggle("hidden");
   resultModal.classList.toggle("hidden");
+  window.location.reload();
 };
 
 const start = () => {
@@ -138,3 +139,4 @@ setInterval(() => {
 
   document.getElementById("show-time").innerHTML = `${Math.round(startTime ? timeSpent : 0)} seconds`;
 }, 1000);
+
